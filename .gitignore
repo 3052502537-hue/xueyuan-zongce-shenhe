@@ -19,3 +19,5 @@ dev_cert.pfx
 # transient login/temp files
 login.err
 login.out
+asset.json
+asset2.json
