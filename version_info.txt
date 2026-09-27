@@ -1,0 +1,38 @@
+# UTF-8
+# PyInstaller 版本资源文件（被综测核算程序.spec 的 version= 引用）。
+# 注意：PyInstaller 会直接 eval 本文件，必须是一个返回 VSVersionInfo 的纯表达式，
+# 不能写 import，也不能写 `version_info =`（赋值不是合法 eval 表达式）。
+# 版本：1.0.0.0；作者/公司名：程震宇。
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(1, 0, 0, 0),
+        prodvers=(1, 0, 0, 0),
+        mask=0x3f,
+        flags=0x0,
+        OS=0x40004,
+        fileType=0x1,
+        subtype=0x0,
+        date=(0, 0),
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    u'080404b0',
+                    [
+                        StringStruct(u'CompanyName', u'程震宇'),
+                        StringStruct(u'FileDescription', u'综测核算程序'),
+                        StringStruct(u'FileVersion', u'1.0.0.0'),
+                        StringStruct(u'InternalName', u'综测核算程序'),
+                        StringStruct(u'LegalCopyright', u'Copyright © 程震宇'),
+                        StringStruct(u'OriginalFilename', u'综测核算程序.exe'),
+                        StringStruct(u'ProductName', u'综测核算程序'),
+                        StringStruct(u'ProductVersion', u'1.0.0.0'),
+                        StringStruct(u'Comments', u'太原科技大学计算机科学与技术学院 综测核算工具'),
+                    ],
+                ),
+            ]
+        ),
+        VarFileInfo([VarStruct(u'Translation', [2052, 1200])]),
+    ],
+)
